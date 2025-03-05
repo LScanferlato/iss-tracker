@@ -20,7 +20,7 @@ def create_map(latitude, longitude):
     m = folium.Map(location=[latitude, longitude], zoom_start=3)
 
     # URL dell'immagine fornita (sostituiscila con l'URL valido se necessario)
-    image_url = "https://play-lh.googleusercontent.com/lZI5RDI2VIvb3yGCTINI_kpAYDyX2WOUhMS8_X8NLgT_aqfH9q6TJqKKs9AAyUs_TA=s256-rw"
+    image_url = "https://media.istockphoto.com/id/1790878880/vector/space-station-vector-glyph-icon-for-personal-and-commercial-use.jpg?s=612x612&w=0&k=20&c=R4D_7Iuwp7ywmuxd8pXrJgtEa70WO5e6dAQzfxrLnqM="
 
     # Crea l'elemento IFrame per l'immagine
     iframe = folium.IFrame(f'<img src="{image_url}" width="100">',
