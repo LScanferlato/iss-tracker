@@ -2,6 +2,7 @@ import folium
 import requests
 import time
 
+
 def get_iss_location():
     """Ottiene la posizione attuale della ISS."""
     try:
